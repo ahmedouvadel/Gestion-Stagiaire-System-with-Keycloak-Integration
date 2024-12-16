@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Config-service/Config-service.iml" filepath="$PROJECT_DIR$/Config-service/Config-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Discovery-service/Discovery-service.iml" filepath="$PROJECT_DIR$/Discovery-service/Discovery-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Evaluation-ms/Evaluation.iml" filepath="$PROJECT_DIR$/Evaluation-ms/Evaluation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gateway-service/Gateway-service.iml" filepath="$PROJECT_DIR$/Gateway-service/Gateway-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gestion-Stagiaire-ms.iml" filepath="$PROJECT_DIR$/Gestion-Stagiaire-ms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project-ms/Project-ms.iml" filepath="$PROJECT_DIR$/Project-ms/Project-ms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stagiaire-ms/Stagiaire-ms.iml" filepath="$PROJECT_DIR$/Stagiaire-ms/Stagiaire-ms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Supervisor-ms/Supervisor.iml" filepath="$PROJECT_DIR$/Supervisor-ms/Supervisor.iml" />
+    </modules>
+  </component>
+</project>

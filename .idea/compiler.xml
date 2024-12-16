@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Supervisor" />
+        <module name="Evaluation" />
+        <module name="Gateway-service" />
+        <module name="Discovery-service" />
+        <module name="Config-service" />
+        <module name="Project-ms" />
+      </profile>
+      <profile name="Annotation profile for Stagiaire-ms" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+        </processorPath>
+        <module name="Stagiaire-ms" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Config-service" target="17" />
+      <module name="Discovery-service" target="17" />
+      <module name="Evaluation" target="17" />
+      <module name="Gateway-service" target="17" />
+      <module name="Project-ms" target="17" />
+      <module name="Stagiaire-ms" target="17" />
+      <module name="Supervisor" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Config-service" options="-parameters" />
+      <module name="Discovery-service" options="-parameters" />
+      <module name="Evaluation" options="-parameters" />
+      <module name="Gateway-service" options="-parameters" />
+      <module name="Project-ms" options="-parameters" />
+      <module name="Stagiaire-ms" options="-parameters" />
+      <module name="Supervisor" options="-parameters" />
+    </option>
+  </component>
+</project>

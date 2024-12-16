@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0839d234-4533-47f1-bacf-d0c2db20da4e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Stagiaire-ms/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stagiaire-ms/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stagiaire-ms/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stagiaire-ms/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stagiaire-ms/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stagiaire-ms/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stagiaire-ms/src/main/java/com/vadel/stagiairems/StagiaireMsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stagiaire-ms/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stagiaire-ms/src/test/java/com/vadel/stagiairems/StagiaireMsApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Stagiaire-ms" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2qFwCsZxX9x7sCHtNwS9pBRShbq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "3fd1abc1ea69cd10ed70f252bff42ee0"
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.DiscoveryServiceApplication">
+    <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Config-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vadel.configservice.ConfigServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Discovery-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vadel.discoveryservice.DiscoveryServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EvaluationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Evaluation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vadel.evaluation.EvaluationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Gateway-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vadel.gatewayservice.GatewayServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectMsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Project-ms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vadel.projectms.ProjectMsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StagiaireMsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Stagiaire-ms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vadel.stagiairems.StagiaireMsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SupervisorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Supervisor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vadel.supervisor.SupervisorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0839d234-4533-47f1-bacf-d0c2db20da4e" name="Changes" comment="" />
+      <created>1734271510003</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734271510003</updated>
+      <workItem from="1734271511749" duration="1264000" />
+      <workItem from="1734339574313" duration="668000" />
+      <workItem from="1734340429820" duration="7886000" />
+      <workItem from="1734355040966" duration="3005000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
