@@ -10,17 +10,9 @@
         <module name="Evaluation" />
         <module name="Gateway-service" />
         <module name="Discovery-service" />
+        <module name="Stagiaire-ms" />
         <module name="Config-service" />
         <module name="Project-ms" />
-      </profile>
-      <profile name="Annotation profile for Stagiaire-ms" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
-        </processorPath>
-        <module name="Stagiaire-ms" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

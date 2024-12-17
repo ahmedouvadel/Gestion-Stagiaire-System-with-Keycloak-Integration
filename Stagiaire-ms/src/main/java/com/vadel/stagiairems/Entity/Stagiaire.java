@@ -1,7 +1,6 @@
-package com.vadel.evaluation.Entity;
+package com.vadel.stagiairems.Entity;
 
-import com.vadel.evaluation.Model.Project;
-import com.vadel.evaluation.Model.Stagiaire;
+import com.vadel.stagiairems.Model.Project;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -12,20 +11,19 @@ import java.time.LocalDate;
 
 @Getter
 @Setter
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 @Entity
-public class Evaluation {
+public class Stagiaire {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private LocalDate dateEvaluation;
-    private Double note;
-    @Lob
-    private String commentaire;
-    @Transient
-    private Stagiaire stagiaire;
-    private Long stagiaireId;
+    private String nom;
+    private String prenom;
+    private String email;
+    private int tel;
+    private LocalDate dateDebut;
+    private LocalDate dateFin;
     @Transient
     private Project project;
     private Long projectId;

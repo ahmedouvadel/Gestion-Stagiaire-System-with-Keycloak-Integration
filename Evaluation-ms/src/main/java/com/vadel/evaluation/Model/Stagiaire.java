@@ -1,4 +1,4 @@
-package com.vadel.supervisor.Entity;
+package com.vadel.evaluation.Model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -9,17 +9,18 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.time.LocalDate;
+
 @Getter
 @Setter
-@AllArgsConstructor
 @NoArgsConstructor
-@Entity
-public class Supervisor {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+@AllArgsConstructor
+public class Stagiaire {
     private Long id;
     private String nom;
     private String prenom;
     private String email;
-    private String departement;
+    private int tel;
+    private LocalDate dateDebut;
+    private LocalDate dateFin;
 }

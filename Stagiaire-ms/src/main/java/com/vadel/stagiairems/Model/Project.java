@@ -1,7 +1,5 @@
-package com.vadel.projectms.Entity;
+package com.vadel.stagiairems.Model;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.vadel.projectms.Model.Supervisor;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -14,18 +12,10 @@ import java.time.LocalDate;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Entity
 public class Project {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String titre;
     private String description;
     private LocalDate dateDebut;
     private LocalDate dateFin;
-    private Long supervisorId;
-
-    @Transient
-    @JsonIgnore
-    private Supervisor supervisor;
 }

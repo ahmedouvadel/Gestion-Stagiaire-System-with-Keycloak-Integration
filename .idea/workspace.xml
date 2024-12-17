@@ -5,15 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0839d234-4533-47f1-bacf-d0c2db20da4e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Stagiaire-ms/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stagiaire-ms/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stagiaire-ms/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stagiaire-ms/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stagiaire-ms/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stagiaire-ms/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stagiaire-ms/src/main/java/com/vadel/stagiairems/StagiaireMsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stagiaire-ms/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stagiaire-ms/src/test/java/com/vadel/stagiairems/StagiaireMsApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_13_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_form_13_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_form_spring_13_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_13_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_4_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_4_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Evaluation-ms/src/main/java/com/vadel/evaluation/Clients/ProjectRestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Evaluation-ms/src/main/java/com/vadel/evaluation/Clients/StagiaireRestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Evaluation-ms/src/main/java/com/vadel/evaluation/Model/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Evaluation-ms/src/main/java/com/vadel/evaluation/Model/Stagiaire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project-ms/src/main/java/com/vadel/projectms/Clients/StagiaireRestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project-ms/src/main/java/com/vadel/projectms/Clients/SupervisorRestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project-ms/src/main/java/com/vadel/projectms/Model/Stagiaire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project-ms/src/main/java/com/vadel/projectms/Model/Supervisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Evaluation-ms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation-ms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Evaluation-ms/src/main/java/com/vadel/evaluation/Controller/EvaluationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation-ms/src/main/java/com/vadel/evaluation/Controller/EvaluationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Evaluation-ms/src/main/java/com/vadel/evaluation/Entity/Evaluation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation-ms/src/main/java/com/vadel/evaluation/Entity/Evaluation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Evaluation-ms/src/main/java/com/vadel/evaluation/EvaluationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation-ms/src/main/java/com/vadel/evaluation/EvaluationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Evaluation-ms/src/main/java/com/vadel/evaluation/Repository/EvaluationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation-ms/src/main/java/com/vadel/evaluation/Repository/EvaluationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Evaluation-ms/src/main/java/com/vadel/evaluation/Services/EvaluationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation-ms/src/main/java/com/vadel/evaluation/Services/EvaluationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Evaluation-ms/src/main/java/com/vadel/evaluation/Services/EvaluationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation-ms/src/main/java/com/vadel/evaluation/Services/EvaluationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-ms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Project-ms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-ms/src/main/java/com/vadel/projectms/Controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project-ms/src/main/java/com/vadel/projectms/Controller/ProjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-ms/src/main/java/com/vadel/projectms/Entity/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project-ms/src/main/java/com/vadel/projectms/Entity/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-ms/src/main/java/com/vadel/projectms/ProjectMsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project-ms/src/main/java/com/vadel/projectms/ProjectMsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-ms/src/main/java/com/vadel/projectms/Services/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project-ms/src/main/java/com/vadel/projectms/Services/ProjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-ms/src/main/java/com/vadel/projectms/Services/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project-ms/src/main/java/com/vadel/projectms/Services/ProjectServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-ms/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Project-ms/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Supervisor-ms/src/main/java/com/vadel/supervisor/Controller/SupervisorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Supervisor-ms/src/main/java/com/vadel/supervisor/Controller/SupervisorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Supervisor-ms/src/main/java/com/vadel/supervisor/Entity/Supervisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Supervisor-ms/src/main/java/com/vadel/supervisor/Entity/Supervisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Supervisor-ms/src/main/java/com/vadel/supervisor/Services/SupervisorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Supervisor-ms/src/main/java/com/vadel/supervisor/Services/SupervisorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Supervisor-ms/src/main/java/com/vadel/supervisor/Services/SupervisorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Supervisor-ms/src/main/java/com/vadel/supervisor/Services/SupervisorServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,13 +50,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Stagiaire-ms" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,13 +69,19 @@
     </option>
   </component>
   <component name="ProjectId" id="2qFwCsZxX9x7sCHtNwS9pBRShbq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -61,7 +94,21 @@
     "spring.configuration.checksum": "3fd1abc1ea69cd10ed70f252bff42ee0"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.DiscoveryServiceApplication">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.vadel.projectms.Model" />
+      <recent name="com.vadel.stagiairems.Model" />
+      <recent name="com.vadel.evaluation.Model" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProjectMsApplication">
     <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Config-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.vadel.configservice.ConfigServiceApplication" />
@@ -123,7 +170,9 @@
       <workItem from="1734271511749" duration="1264000" />
       <workItem from="1734339574313" duration="668000" />
       <workItem from="1734340429820" duration="7886000" />
-      <workItem from="1734355040966" duration="3005000" />
+      <workItem from="1734355040966" duration="3114000" />
+      <workItem from="1734425251435" duration="941000" />
+      <workItem from="1734426432777" duration="12762000" />
     </task>
     <servers />
   </component>
