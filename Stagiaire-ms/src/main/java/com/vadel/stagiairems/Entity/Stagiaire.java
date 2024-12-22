@@ -1,5 +1,6 @@
 package com.vadel.stagiairems.Entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.vadel.stagiairems.Model.Project;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -24,7 +25,8 @@ public class Stagiaire {
     private int tel;
     private LocalDate dateDebut;
     private LocalDate dateFin;
-    @Transient
+    /*@Transient
+    @JsonIgnore
     private Project project;
-    private Long projectId;
+    private Long projectId;*/
 }

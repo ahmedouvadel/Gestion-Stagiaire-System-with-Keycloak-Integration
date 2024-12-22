@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0839d234-4533-47f1-bacf-d0c2db20da4e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-ms/src/main/java/com/vadel/projectms/Clients/StagiaireRestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project-ms/src/main/java/com/vadel/projectms/Clients/StagiaireRestClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project-ms/src/main/java/com/vadel/projectms/Controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project-ms/src/main/java/com/vadel/projectms/Controller/ProjectController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project-ms/src/main/java/com/vadel/projectms/Entity/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project-ms/src/main/java/com/vadel/projectms/Entity/Project.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project-ms/src/main/java/com/vadel/projectms/Services/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project-ms/src/main/java/com/vadel/projectms/Services/ProjectServiceImpl.java" afterDir="false" />
@@ -76,7 +77,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DiscoveryServiceApplication">
+  <component name="RunManager" selected="Spring Boot.StagiaireMsApplication">
     <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Config-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.vadel.configservice.ConfigServiceApplication" />
@@ -141,7 +142,7 @@
       <workItem from="1734355040966" duration="3114000" />
       <workItem from="1734425251435" duration="941000" />
       <workItem from="1734426432777" duration="13074000" />
-      <workItem from="1734883801402" duration="2350000" />
+      <workItem from="1734883801402" duration="12493000" />
     </task>
     <servers />
   </component>

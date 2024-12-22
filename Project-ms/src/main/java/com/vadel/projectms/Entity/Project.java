@@ -1,6 +1,7 @@
 package com.vadel.projectms.Entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.vadel.projectms.Model.Stagiaire;
 import com.vadel.projectms.Model.Supervisor;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -27,5 +28,8 @@ public class Project {
     @Transient
     private Supervisor supervisor;
     private Long supervisorId;
+    @Transient
+    private Stagiaire stagiaire;
+    private Long stagiaireId;
 
 }

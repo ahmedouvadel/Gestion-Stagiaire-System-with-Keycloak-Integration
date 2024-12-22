@@ -16,7 +16,6 @@ import java.util.Map;
 public class StagiaireController {
 
     private final StagiaireService stagiaireService;
-    private final StagiaireRepository stagiaireRepository;
 
     @GetMapping("/{id}/exists")
     public ResponseEntity<Boolean> existsStagiaireById(@PathVariable Long id) {
@@ -29,14 +28,17 @@ public class StagiaireController {
         return stagiaireService.getStagiaireWithProject(id);
     }
 
+
+
     @GetMapping
     public List<Stagiaire> getAllStagiaires() {
         return stagiaireService.getAllStagiaires();
     }
 
     @GetMapping("/{id}")
-    public Stagiaire getStagiaire(@PathVariable Long id) {
-        return stagiaireService.getStagiaireById(id);
+    public ResponseEntity<Stagiaire> getStagiaire(@PathVariable Long id) {
+        Stagiaire stagiaire = stagiaireService.getStagiaireById(id);
+        return ResponseEntity.ok(stagiaire);
     }
 
     @PostMapping

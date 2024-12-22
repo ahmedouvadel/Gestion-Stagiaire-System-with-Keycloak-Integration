@@ -13,4 +13,5 @@ public interface StagiaireService {
     boolean existsById(Long id);
     Stagiaire saveStagiaire(Stagiaire stagiaire);
     void deleteStagiaire(Long id);
+
 }

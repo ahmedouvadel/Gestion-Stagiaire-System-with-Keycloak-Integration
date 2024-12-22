@@ -20,14 +20,21 @@ public class StagiaireServiceImpl implements StagiaireService {
     private final ProjectRestClient projectClient;
     @Override
     public Stagiaire getStagiaireById(Long id) {
-        return stagiaireRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Stagiaire not found"));
+        Stagiaire stagiaire = stagiaireRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Stagiaire not found with ID: " + id));
+       /* // Fetch project details
+        if (stagiaire.getProjectId() != null) {
+            Project project = projectClient.getProjectById(stagiaire.getProjectId());
+            stagiaire.setProject(project);
+        }
+*/
+        return stagiaire;
     }
     @Override
     public boolean existsById(Long id) {
         return stagiaireRepository.existsById(id);
     }
-    @Override
+    /*@Override
     public Map<String, Object> getStagiaireWithProject(Long stagiaireId) {
         Stagiaire stagiaire = stagiaireRepository.findById(stagiaireId)
                 .orElseThrow(() -> new RuntimeException("Stagiaire not found"));
@@ -41,6 +48,11 @@ public class StagiaireServiceImpl implements StagiaireService {
         response.put("project", project);
 
         return response;
+    }*/
+
+    @Override
+    public Map<String, Object> getStagiaireWithProject(Long stagiaireId) {
+        return null;
     }
 
     @Override

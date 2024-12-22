@@ -9,6 +9,6 @@ import java.util.List;
 
 @FeignClient(name = "stagiaire-service")
 public interface StagiaireRestClient {
-    @GetMapping("/api/stagiaire/project/{projectId}")
-    List<Stagiaire> getStagiairesByProjectId(@PathVariable Long projectId);
+    @GetMapping("/api/stagiaire/{id}")
+    Stagiaire getStagiaireById(@PathVariable Long id);
 }
