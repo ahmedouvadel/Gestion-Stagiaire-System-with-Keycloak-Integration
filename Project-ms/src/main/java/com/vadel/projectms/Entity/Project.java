@@ -23,9 +23,9 @@ public class Project {
     private String description;
     private LocalDate dateDebut;
     private LocalDate dateFin;
-    private Long supervisorId;
 
     @Transient
-    @JsonIgnore
     private Supervisor supervisor;
+    private Long supervisorId;
+
 }

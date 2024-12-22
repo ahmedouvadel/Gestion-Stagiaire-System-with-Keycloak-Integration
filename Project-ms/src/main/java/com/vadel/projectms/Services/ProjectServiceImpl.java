@@ -12,6 +12,7 @@ import org.springframework.stereotype.Service;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
@@ -49,9 +50,22 @@ public class ProjectServiceImpl implements ProjectService {
         return response;
     }
 
+
+    /*public List<Project> getAllProjects() {
+        return projectRepository.findAll();
+    }*/
     @Override
     public List<Project> getAllProjects() {
-        return projectRepository.findAll();
+        List<Project> projects = projectRepository.findAll();
+        return projects.stream().map(this::populateSupervisorDetails).collect(Collectors.toList());
+    }
+
+    private Project populateSupervisorDetails(Project project) {
+        if (project.getSupervisorId() != null) {
+            Supervisor supervisor = supervisorClient.getSupervisorById(project.getSupervisorId());
+            project.setSupervisor(supervisor);
+        }
+        return project;
     }
 
     @Override
