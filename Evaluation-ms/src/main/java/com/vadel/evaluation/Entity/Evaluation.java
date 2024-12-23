@@ -1,7 +1,6 @@
 package com.vadel.evaluation.Entity;
 
 import com.vadel.evaluation.Model.Project;
-import com.vadel.evaluation.Model.Stagiaire;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -23,9 +22,6 @@ public class Evaluation {
     private Double note;
     @Lob
     private String commentaire;
-    @Transient
-    private Stagiaire stagiaire;
-    private Long stagiaireId;
     @Transient
     private Project project;
     private Long projectId;
