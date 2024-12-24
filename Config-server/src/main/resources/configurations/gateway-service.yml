@@ -1,0 +1,32 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: stagiaire-service
+          uri: lb://STAGIAIRE-SERVICE
+          predicates:
+            - Path=/api/stagiaire/**
+        - id: project-service
+          uri: lb://PROJECT-SERVICE
+          predicates:
+            - Path=/api/project/**
+        - id: evaluation-service
+          uri: lb://EVALUATION-SERVICE
+          predicates:
+            - Path=/api/evaluation/**
+        - id: supervisor-service
+          uri: lb://SUPERVISOR-SERVICE
+          predicates:
+            - Path=/api/supervisor/**
+  application:
+    name: gateway-service
+security:
+  oauth2:
+    resourceserver:
+      jwt:
+        issuer-uri: http://localhost:8080/realms/Gestion-Stagiaire

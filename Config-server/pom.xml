@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.vadel</groupId>
-	<artifactId>Config-service</artifactId>
+	<artifactId>Config-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Config-service</name>
-	<description>Config-service</description>
+	<description>Config-server</description>
 	<url/>
 	<licenses>
 		<license/>
