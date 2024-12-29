@@ -7,6 +7,7 @@ import com.vadel.projectms.Services.ProjectService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -21,6 +22,7 @@ public class ProjectController {
 
 
     @GetMapping("/{id}")
+    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     public ResponseEntity<Project> getProjectById(@PathVariable Long id) {
         try {
             Project project = projectService.getProjectById(id);
@@ -31,12 +33,14 @@ public class ProjectController {
     }
 
     @GetMapping
+    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     public ResponseEntity<List<Project>> getAllProjects() {
         List<Project> projects = projectService.getAllProjects();
         return ResponseEntity.ok(projects);
     }
 
     @GetMapping("/{id}/details")
+    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     public ResponseEntity<Map<String, Object>> getProjectWithDetails(@PathVariable Long id) {
         try {
             Map<String, Object> projectDetails = projectService.getProjectWithDetails(id);
@@ -48,6 +52,7 @@ public class ProjectController {
 
     // Check if a project exists by ID
     @GetMapping("/{id}/exists")
+    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     public ResponseEntity<Boolean> existsProjectById(@PathVariable Long id) {
         boolean exists = projectService.existsById(id);
         return ResponseEntity.ok(exists);
@@ -58,6 +63,7 @@ public class ProjectController {
 
     // Create a new project
     @PostMapping
+    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     public ResponseEntity<?> createProject(@RequestBody Project project) {
         try {
             Project savedProject = projectService.createProject(project);
@@ -69,6 +75,7 @@ public class ProjectController {
 
     // Delete a project by ID
     @DeleteMapping("/{id}")
+    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     public ResponseEntity<Void> deleteProject(@PathVariable Long id) {
         try {
             projectService.deleteProject(id);

@@ -1,8 +1,10 @@
+/*
 package com.vadel.gatewayservice.Config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.Customizer;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.reactive.EnableWebFluxSecurity;
 import org.springframework.security.config.web.server.ServerHttpSecurity;
 
@@ -13,23 +15,21 @@ import org.springframework.security.web.server.SecurityWebFilterChain;
 @Configuration
 @EnableWebFluxSecurity
 public class SecurityConfig {
-
     @Bean
     public SecurityWebFilterChain securityWebFilterChain(ServerHttpSecurity http) {
         http
-                .csrf(ServerHttpSecurity.CsrfSpec::disable) // Désactiver CSRF
+                .csrf(ServerHttpSecurity.CsrfSpec::disable)
                 .authorizeExchange(exchanges -> exchanges
-                        // Sécuriser toutes les routes API avec authentification
-                        .pathMatchers("/api/stagiaire/**").authenticated()
-                        .pathMatchers("/api/project/**").authenticated()
+                        .pathMatchers("/api/stagiaire/**").hasRole("USER,ADMIN")
+                        .pathMatchers("/api/project/**").hasRole("ADMIN")
                         .pathMatchers("/api/evaluation/**").authenticated()
-                        .pathMatchers("/api/supervisor/**").authenticated()
-                        // Autoriser l'accès libre pour Eureka et Actuator
+                        .pathMatchers("/api/supervisor/**").permitAll()
                         .pathMatchers("/actuator/**").permitAll()
                         .pathMatchers("/eureka/**").permitAll()
+                        .anyExchange().authenticated()
                 )
                 .oauth2ResourceServer(oauth2 -> oauth2
-                        .jwt(Customizer.withDefaults())
+                        .jwt(jwt -> jwt.jwtDecoder(jwtDecoder()))
                 );
 
         return http.build();
@@ -37,7 +37,8 @@ public class SecurityConfig {
 
     @Bean
     public ReactiveJwtDecoder jwtDecoder() {
-        return NimbusReactiveJwtDecoder.withJwkSetUri("http://localhost:8080/realms/Gestion-Stagiaire/protocol/openid-connect/certs")
-                .build();
+
+        String jwkSetUri = "http://localhost:8080/realms/Gestion-Stagiaire/protocol/openid-connect/certs";
+        return NimbusReactiveJwtDecoder.withJwkSetUri(jwkSetUri).build();
     }
-}
+}*/

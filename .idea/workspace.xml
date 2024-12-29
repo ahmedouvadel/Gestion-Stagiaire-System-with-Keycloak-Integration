@@ -5,45 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0839d234-4533-47f1-bacf-d0c2db20da4e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_jcip_jcip_annotations_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_9_37_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_oauth2_resource_server_3_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_core_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_jose_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_resource_server_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Config-server/src/main/resources/configurations/discovery-service.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Config-server/src/main/resources/configurations/evaluation-service.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Config-server/src/main/resources/configurations/gateway-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Config-server/src/main/resources/configurations/project-service.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Config-server/src/main/resources/configurations/stagiaire-service.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Config-server/src/main/resources/configurations/supervisor-service.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gateway-service/src/main/java/com/vadel/gatewayservice/Config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Evaluation-ms/src/main/java/com/vadel/evaluation/Config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project-ms/src/main/java/com/vadel/projectms/Config/FeignClientInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project-ms/src/main/java/com/vadel/projectms/Config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Supervisor-ms/src/main/java/com/vadel/supervisor/Config/FeignClientInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Supervisor-ms/src/main/java/com/vadel/supervisor/Config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config-service/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/Config-server/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Config-server/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Config-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config-service/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/Config-server/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config-service/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/Config-server/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Config-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config-service/src/main/java/com/vadel/configservice/ConfigServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Config-server/src/main/java/com/vadel/configserver/ConfigServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Config-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config-service/src/test/java/com/vadel/configservice/ConfigServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Config-server/src/test/java/com/vadel/configserver/ConfigServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Discovery-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Discovery-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Discovery-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Discovery-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Evaluation-ms/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation-ms/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Config-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config-server/src/main/resources/configurations/discovery-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Config-server/src/main/resources/configurations/discovery-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config-server/src/main/resources/configurations/evaluation-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Config-server/src/main/resources/configurations/evaluation-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config-server/src/main/resources/configurations/gateway-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Config-server/src/main/resources/configurations/gateway-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config-server/src/main/resources/configurations/project-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Config-server/src/main/resources/configurations/project-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config-server/src/main/resources/configurations/stagiaire-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Config-server/src/main/resources/configurations/stagiaire-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config-server/src/main/resources/configurations/supervisor-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Config-server/src/main/resources/configurations/supervisor-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Evaluation-ms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation-ms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Evaluation-ms/src/main/java/com/vadel/evaluation/Controller/EvaluationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation-ms/src/main/java/com/vadel/evaluation/Controller/EvaluationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway-service/src/main/java/com/vadel/gatewayservice/GatewayServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway-service/src/main/java/com/vadel/gatewayservice/GatewayServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway-service/src/main/resources/app.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-ms/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Project-ms/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Supervisor-ms/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Supervisor-ms/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway-service/src/main/java/com/vadel/gatewayservice/Config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway-service/src/main/java/com/vadel/gatewayservice/Config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-ms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Project-ms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-ms/src/main/java/com/vadel/projectms/Clients/StagiaireRestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project-ms/src/main/java/com/vadel/projectms/Clients/StagiaireRestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-ms/src/main/java/com/vadel/projectms/Clients/SupervisorRestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project-ms/src/main/java/com/vadel/projectms/Clients/SupervisorRestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-ms/src/main/java/com/vadel/projectms/Controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project-ms/src/main/java/com/vadel/projectms/Controller/ProjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Supervisor-ms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Supervisor-ms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Supervisor-ms/src/main/java/com/vadel/supervisor/Controller/SupervisorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Supervisor-ms/src/main/java/com/vadel/supervisor/Controller/SupervisorController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +78,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;3fd1abc1ea69cd10ed70f252bff42ee0&quot;
+    &quot;spring.configuration.checksum&quot;: &quot;03684c097a2c8b23c2220b11ec1dbbaf&quot;
   }
 }</component>
   <component name="ReactorSettings">
@@ -114,7 +98,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DiscoveryServiceApplication">
+  <component name="RunManager" selected="Spring Boot.GatewayServiceApplication">
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Config-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.vadel.configserver.ConfigServerApplication" />
@@ -189,7 +173,10 @@
       <workItem from="1734426432777" duration="13074000" />
       <workItem from="1734883801402" duration="13195000" />
       <workItem from="1734970126297" duration="5584000" />
-      <workItem from="1735049541401" duration="11473000" />
+      <workItem from="1735049541401" duration="11801000" />
+      <workItem from="1735316559699" duration="394000" />
+      <workItem from="1735482981908" duration="10706000" />
+      <workItem from="1735504008368" duration="5239000" />
     </task>
     <servers />
   </component>
