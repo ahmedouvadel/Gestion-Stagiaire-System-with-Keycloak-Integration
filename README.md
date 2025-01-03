@@ -1,14 +1,16 @@
 # Microservices avec Sécurité Keycloak et API Gateway
 
+## Démonstration Vidéo
+Pour une démonstration complète de l'architecture et des fonctionnalités, cliquez sur l'image ci-dessus ou regardez directement sur YouTube :
+[Microservices avec Spring Boot et Keycloak](https://www.youtube.com/watch?v=2nTcqCm5V4E)
+
+
 <p align="center">
   <a href="https://www.youtube.com/watch?v=2nTcqCm5V4E" target="_blank">
     <img src="https://img.youtube.com/vi/2nTcqCm5V4E/0.jpg" alt="Microservices avec Spring Boot et Keycloak" width="600"/>
   </a>
 </p>
 
-## Démonstration Vidéo
-Pour une démonstration complète de l'architecture et des fonctionnalités, cliquez sur l'image ci-dessus ou regardez directement sur YouTube :
-[Microservices avec Spring Boot et Keycloak](https://www.youtube.com/watch?v=2nTcqCm5V4E)
 
 ## Description du Projet
 Ce projet implémente une architecture microservices sécurisée avec **Spring Boot**, **Spring Cloud Gateway**, et **Keycloak** comme fournisseur d'authentification et d'autorisation. Il comprend les services suivants :
