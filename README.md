@@ -6,6 +6,10 @@
   </a>
 </p>
 
+## Démonstration Vidéo
+Pour une démonstration complète de l'architecture et des fonctionnalités, cliquez sur l'image ci-dessus ou regardez directement sur YouTube :
+[Microservices avec Spring Boot et Keycloak](https://www.youtube.com/watch?v=2nTcqCm5V4E)
+
 ## Description du Projet
 Ce projet implémente une architecture microservices sécurisée avec **Spring Boot**, **Spring Cloud Gateway**, et **Keycloak** comme fournisseur d'authentification et d'autorisation. Il comprend les services suivants :
 
@@ -37,11 +41,6 @@ Le projet utilise **Keycloak** pour :
 2. Gérer l'authentification et l'autorisation.
 3. Valider les tokens JWT pour sécuriser les routes API.
 
-### Exemple de Configuration dans Gateway :
-```properties
-spring.security.oauth2.resourceserver.jwt.issuer-uri=http://localhost:8080/realms/Gestion-Stagiaire
-```
-
 ## Test des API avec Postman
 Des requêtes POST sont disponibles pour ajouter des entités. Exemple :
 - Ajouter un stagiaire : `POST http://localhost:8081/api/stagiaire`
@@ -57,10 +56,6 @@ Authorization: Bearer <token>
 - Définition des utilisateurs et des rôles.
 - Attribution des rôles aux utilisateurs.
 - Génération et validation des tokens JWT.
-
-## Démonstration Vidéo
-Pour une démonstration complète de l'architecture et des fonctionnalités, cliquez sur l'image ci-dessus ou regardez directement sur YouTube :
-[Microservices avec Spring Boot et Keycloak](https://www.youtube.com/watch?v=2nTcqCm5V4E)
 
 ## Prérequis
 - Java 17 ou version ultérieure.
